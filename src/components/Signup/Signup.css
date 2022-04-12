@@ -1,0 +1,9 @@
+form button{
+    width: 100%;
+    margin: 0;
+}
+form button img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

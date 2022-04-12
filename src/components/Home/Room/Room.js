@@ -1,9 +1,11 @@
 import React from 'react';
 import './Room.css';
 import { ArrowRightIcon } from '@heroicons/react/solid'
+import { useNavigate } from 'react-router-dom';
 
 const Room = ({ room }) => {
     const { name, img, details } = room;
+    const navigate=useNavigate();
 
     return (
             <div className="card room mx-auto col-12 col-sm-12 col-md-6 col-lg-4" style={{ width: "18rem" }}>
@@ -13,7 +15,7 @@ const Room = ({ room }) => {
                     <p className="card-text">{details}</p>
                 </div>
                 <div className="card-footer bg-white">
-                    <button>Book Now <ArrowRightIcon style={{width:"20px"}}></ArrowRightIcon> </button>
+                    <button onClick={()=>navigate('/checkout')}>Book Now <ArrowRightIcon style={{width:"20px"}}></ArrowRightIcon> </button>
                 </div>
             </div>
     );
