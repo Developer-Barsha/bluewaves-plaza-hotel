@@ -1,4 +1,9 @@
 import React from 'react';
+import './Banner.css'
+import banner1 from '../../../images/banner/banner1.png'
+import banner2 from '../../../images/banner/banner2.png'
+import banner3 from '../../../images/banner/banner3.png'
+import banner4 from '../../../images/banner/banner4.png'
 
 const Banner = () => {
     return (
@@ -8,16 +13,20 @@ const Banner = () => {
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="..." />
+                        <img src={banner1} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..." />
+                        <img src={banner2} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..." />
+                        <img src={banner3} class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src={banner4} class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
