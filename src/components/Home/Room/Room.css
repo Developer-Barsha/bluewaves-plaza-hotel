@@ -1,6 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
-nav button {
+*{
+    font-family: 'Nunito', sans-serif;
+}
+.room{
+    margin: 10px;
+    text-align: justify;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px #46434343;
+}
+.room img{
+    margin-top: 10px;
+    height: 200px;
+}
+.room:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.room:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px #46434390;
+}
+
+.room button {
     border: none;
     padding: 8px 15px;
     margin: 3px 10px;
@@ -9,13 +31,13 @@ nav button {
     overflow: hidden;
     position: relative;
 }
-nav button:hover {
+.room button:hover {
     background-color: #0076fd;
     transition: 0.5s;
     box-shadow: 2px 2px 5px #0076fd;
     text-shadow: 3px 3px 5px #46434390;
 }
-nav button:hover:after{
+.room button:hover:after{
     transition: 5s;
     content: "";
     width: 50px;
@@ -26,13 +48,4 @@ nav button:hover:after{
     top: -30px;
     left: -30px;
     box-shadow: 1px 1px 20px #fdec00;
-}
-.title{
-    color: #2DA0F9;
-}
-
-.title span {
-    font-size: 40px;
-    color: #0386ED;
-    font-family: 'Pacifico', cursive;
 }

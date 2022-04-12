@@ -1,0 +1,44 @@
+[
+    {
+        "id":1, 
+        "img":"https://images.unsplash.com/photo-1586611292717-f828b167408c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60", 
+        "name":"Single Room", 
+        "details":"This room has a balcony with sun loungers with swimming pool or mountain views. This room has free WI FI."
+    },
+    {
+        "id":2, 
+        "img":"https://images.unsplash.com/photo-1521783988139-89397d761dce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60", 
+        "name":"Family Room", 
+        "details":"Pool views, terrace, flat screen TV with satellite channels, desk,  parquet floor and other needy furtinures"
+    },
+    {
+        "id":3, 
+        "img":"https://media.istockphoto.com/photos/inside-view-of-a-wooden-dome-in-a-forest-picture-id1286312912?b=1&k=20&m=1286312912&s=170667a&w=0&h=h7CwUN6ptn5lel9PCozgYT7HH8cCG0JfYIJZ3K84tfs=", 
+        "name":"Wood House", 
+        "details":"Located on the top floor of the hotel and air conditioned, a furnished balcony with sun loungers"
+    },
+    {
+        "id":4, 
+        "img":"https://images.unsplash.com/photo-1632210702485-e1841e30752a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60", 
+        "name":"Family Room", 
+        "details":"The bed and breakfast is fitted with a flat-screen TV. Towels and bed linen are offered. This is our guests' favourite part of Rome"
+    },
+    {
+        "id":5, 
+        "img":"https://images.unsplash.com/photo-1621891333819-00c206ec8994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60", 
+        "name":"Single Room", 
+        "details":"This room air conditioned, There's a balcony with sea, swimming pool or mountain views and free WI-FI."
+    },
+    {
+        "id":6, 
+        "img":"https://media.istockphoto.com/photos/luxury-bedroom-with-chinese-style-picture-id461159575?k=20&m=461159575&s=170667a&w=0&h=LrA4Oie0TsvkU4bFBafg-HTTYK5OrVe7UndhXPmEojw=", 
+        "name":"Single Room with Sea View", 
+        "details":"This single room has a tea/coffee maker, electric kettle and flat-screen TV."
+    },
+    {
+        "id":7, 
+        "img":"https://media.istockphoto.com/photos/beachfront-bungalow-with-sea-view-picture-id1198357641?b=1&k=20&m=1198357641&s=170667a&w=0&h=q3UQ7jmlfS3kABaJzlbEJku64kNbx7LGB5pBn0Ttwxk=", 
+        "name":"Double Room", 
+        "details":"Linen,Hand sanitiser, Electric kettle, Flat-screen TV, Single-room air conditioning for guest accommodation"
+    }
+]
