@@ -6,9 +6,10 @@ const Checkout = () => {
     const [user] = useAuthState(auth);
 
     return (
-        <div className='container'>
+        <div className='container p-3'>
+        <h3 className='title'>Please <span>C</span>heckout</h3>
             <form className="row g-3">
-                <div className="col-10 col-sm-12 col-md-8 col-lg-6">
+                <div className="col-md-6">
                     <label htmlFor="formGroupExampleInput" className="form-label">Your Name</label>
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Enter your name" required />
                 </div>
@@ -24,7 +25,7 @@ const Checkout = () => {
                     <label htmlFor="inputCity" className="form-label">City</label>
                     <input type="text" className="form-control" id="inputCity" />
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-6">
                     <label htmlFor="inputZip" className="form-label">Zip</label>
                     <input type="text" className="form-control" id="inputZip" />
                 </div>
@@ -32,12 +33,12 @@ const Checkout = () => {
                     <div className="form-check">
                         <input className="form-check-input" type="checkbox" id="gridCheck" />
                         <label className="form-check-label" htmlFor="gridCheck">
-                            Check me out
+                            Agreed to terms
                         </label>
                     </div>
                 </div>
                 <div className="col-12">
-                    <button type="submit" className="btn btn-primary">Sign in</button>
+                    <button type="submit" className="btn btn-primary">Checkout</button>
                 </div>
             </form>
         </div>
