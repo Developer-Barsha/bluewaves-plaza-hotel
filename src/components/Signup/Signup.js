@@ -44,15 +44,19 @@ const Signup = () => {
                     <p>{error && error.message}</p>
                     <button type="submit" onClick={signUp} className="btn btn-primary">Sign Up</button>
                 </div>
+                
                 <div className="col-10 col-sm-12 col-md-8 col-lg-6">
-                    <button type="submit" onClick={()=>signInWithGoogle()} className="btn btn-primary"> <img src='https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg' alt=''></img> Continue With Google</button>
-                </div>
                 {
                     loading &&
                     <div className="spinner-grow text-primary" role="status">
                         <span className="visually-hidden">Loading...</span>
                     </div>
                 }
+                </div>
+                
+                <div className="col-10 col-sm-12 col-md-8 col-lg-6">
+                    <button type="submit" onClick={()=>signInWithGoogle()} className="btn btn-primary"> <img src='https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg' alt=''></img> Continue With Google</button>
+                </div>
             </form>
         </div>
     );

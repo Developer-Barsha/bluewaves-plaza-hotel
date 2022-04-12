@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import Checkout from './components/Checkout/Checkout';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import Gallery from './components/Gallery/Gallery';
+import Error404 from './components/Error404/Error404';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/gallery' element={<Gallery />}></Route>
         <Route path='/signup' element={<Signup />}></Route>
         <Route path='/checkout' element={<RequireAuth><Checkout /></RequireAuth>}></Route>
+        <Route path='*' element={<Error404 />}></Route>
       </Routes>
       <Footer></Footer>
     </div>

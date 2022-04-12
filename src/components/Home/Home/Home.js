@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Footer/Footer';
 import Banner from '../Banner/Banner'
 import Rooms from '../Rooms/Rooms';
 

@@ -34,7 +34,7 @@ const Login = () => {
     return (
         <div className="container my-5">
             <h3 className='title'><span>L</span>ogin</h3>
-            <form className="row g-3 d-flex flex-column" onSubmit={(e) => { e.preventDefault() }}>
+            <form className="row g-3 d-flex flex-column justify-content-center mx-auto" onSubmit={(e) => { e.preventDefault() }}>
                 <div className="col-10 col-sm-12 col-md-8 col-lg-6">
                     <label htmlFor="inputEmail4" className="form-label">Email</label>
                     <input type="email" className="form-control" id="inputEmail4" placeholder='Enter your email' onBlur={getEmail} />
@@ -48,15 +48,17 @@ const Login = () => {
                     <Link to={'/signup'}>Create an account</Link>
                 </div>
                 <div className="col-10 col-sm-12 col-md-8 col-lg-6">
-                    <p>{error && error.message}</p>
-                    <button type="submit" onClick={login} className="btn btn-primary">Log in</button>
-                </div>
                 {
                     loading &&
                     <div className="spinner-grow text-primary" role="status">
                         <span className="visually-hidden">Loading...</span>
                     </div>
                 }
+                </div>
+                <div className="col-10 col-sm-12 col-md-8 col-lg-6">
+                    <p>{error && error.message}</p>
+                    <button type="submit" onClick={login} className="btn btn-primary">Log in</button>
+                </div>
             </form>
         </div>
     );
